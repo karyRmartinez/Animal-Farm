@@ -1,23 +1,21 @@
 package org.yu.farm;
 
-public class Hen extends Animal {
-
-    public Hen(String name) {
-        this(AnimalType.HEN, name);
+public class Llama extends Animal {
+    public Llama(String name){
+        this(AnimalType.LLAMA, name);
     }
 
-    private Hen(AnimalType species, String name) {
+    private Llama(AnimalType species, String name) {
         super(species, name);
     }
 
     @Override
     public void makeNoise() {
-        System.out.println("Shimmy-Shack!");
+        System.out.println("chomp chomp");
     }
 
     @Override
     public void eatUnderYonderTree() {
         super.eatUnderYonderTree();
     }
-
 }

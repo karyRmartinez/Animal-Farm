@@ -1,7 +1,6 @@
 package org.yu.farm;
 
 import org.yu.farm.scary.Jaguar;
-import org.yu.farm.scary.ScaryAnimal;
 import org.yu.farm.scary.ScaryCat;
 
 import java.util.ArrayList;
@@ -33,6 +32,8 @@ public class AnimalFarm {
         animals.add(    new Cat("Bai-Bai")      );
         animals.add(    new Jaguar("Bob the not so Bad")  );
         animals.add(    new ScaryCat("Zoe (Not really bad; just a little scary)"));
+        animals.add(new Llama("felipe"));
+
     }
 
 }

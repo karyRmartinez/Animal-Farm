@@ -11,4 +11,9 @@ public class Armadillo extends Animal {
     public void makeNoise() {
         System.out.println("shhh.  armadillos are silent...");
     }
+
+    @Override
+    public void eatUnderYonderTree() {
+        super.eatUnderYonderTree();
+    }
 }

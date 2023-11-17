@@ -16,4 +16,9 @@ public class Cow extends Animal {
         System.out.println("ooops.  I meant \"Moooooo\" ");
     }
 
+    @Override
+    public void eatUnderYonderTree() {
+        super.eatUnderYonderTree();
+    }
+
 }
