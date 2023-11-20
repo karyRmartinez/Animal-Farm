@@ -14,6 +14,7 @@ public class Armadillo extends Animal {
 
     @Override
     public void eatUnderYonderTree() {
-        super.eatUnderYonderTree();
+
+
     }
 }

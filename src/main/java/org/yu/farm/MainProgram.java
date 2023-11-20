@@ -28,7 +28,7 @@ public class MainProgram {
             a.makeNoise();
 
             // add a POLYMORPHIC call to eatUnderYonderTree();
-            a.eatUnderYonderTree();
+            //a.eatUnderYonderTree();
             if ( a instanceof ScaryAnimal)
                 System.out.println("EEEEEEEEEEEEK! A SCARY ANIMAL!");
 

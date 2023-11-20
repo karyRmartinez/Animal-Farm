@@ -27,8 +27,8 @@ public abstract class Animal implements LifeForm {
     // Methods
     abstract public void makeNoise();
 
-//    public void eatUnderYonderTree() {
-//        System.out.println("Munch Crunch Sluuuurp");
-//    }
+    public void eatUnderYonderTree() {
+        System.out.println("Munch Crunch Sluuuurp");
+    }
 
 }
